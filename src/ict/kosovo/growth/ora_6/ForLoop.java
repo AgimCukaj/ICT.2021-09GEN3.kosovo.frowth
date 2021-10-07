@@ -31,12 +31,14 @@ public class ForLoop {
 
 
 
-        String symbol = "Agim";
-        for (int i = 5; i <= symbol.length(); i--){
 
-                System.out.println(symbol);
+        for (int i = 5; i >= 0; i--){
+            for (int j = 1; j<=i; j++){
+                System.out.print("*");
             }
-        System.out.println(symbol);
+            System.out.println();
+        }
+
 
         }
 
